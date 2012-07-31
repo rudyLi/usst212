@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--  scanning is done "in-thread", that is anytime a printing method of logger is invoked. 
+For example, for a logger named myLogger, when you write "myLogger.debug("hello");", 
+and if the scan attribute is set to true, then ReconfigureOnChangeFilter will be invoked. Moreover,
+the said filter will be invoked even if myLogger is disabled for the debug level.  -->
+<configuration scan="true" scanPeriod="30 seconds">
+
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{48} %line - %msg%n
+			</pattern>
+		</encoder>
+	</appender>
+
+	<appender name="FILE"
+		class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>/data/qa/applogs/qa-indextask.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<FileNamePattern>
+				/data/qa/applogs/zip/qa-indextask.%d{yyyy-MM-dd}.log.zip
+			</FileNamePattern>
+		</rollingPolicy>
+
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>
+                %-26(%d{HH:mm:ss.SSS} [%thread]) %-5level %logger{48} %line - %msg%n
+            </Pattern>
+		</encoder><!--
+		    <appender name="FileHtml" class="ch.qos.logback.core.FileAppender">
+        <file>log/.log.html</file>
+        <layout class="ch.qos.logback.classic.html.HTMLLayout">
+            <pattern>%date%level%thread%10logger%file%line%msg</pattern>
+        </layout>
+    </appender>
+	--></appender>
+	
+
+	
+	
+	<root>
+		<level value="INFO" />
+		
+ 		 <appender-ref ref="STDOUT"/> 
+
+		<appender-ref ref="FILE" /><!--
+		
+		  <appender-ref ref="FileHtml"/>
+
+ 		--><!-- <appender-ref ref="EMAIL"/>   -->
+ 		
+		<!-- Part I: Basic Cyclic buffer 
+		<appender-ref ref="CYCLIC" />
+		 -->
+
+	</root>
+
+</configuration>

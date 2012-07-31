@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Fri Jul 27 13:03:31 CST 2012</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Level">Level</td>
+<td class="Thread">Thread</td>
+<td class="Logger">Logger</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:03:31,099</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">411</td>
+<td class="Message">Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@2798e7: display name [org.springframework.context.support.ClassPathXmlApplicationContext@2798e7]; startup date [Fri Jul 27 13:03:31 CST 2012]; root of context hierarchy</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:03:31,173</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
+<td class="FileOfCaller">XmlBeanDefinitionReader.java</td>
+<td class="LineOfCaller">323</td>
+<td class="Message">Loading XML bean definitions from class path resource [beans/db.xml]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:03:31,453</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">426</td>
+<td class="Message">Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@2798e7]: org.springframework.beans.factory.support.DefaultListableBeanFactory@dc1f04</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:03:31,554</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td class="FileOfCaller">DefaultListableBeanFactory.java</td>
+<td class="LineOfCaller">414</td>
+<td class="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@dc1f04: defining beans [dataSource,jdbcTemplate,IndexTaskListDao]; root of factory hierarchy</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:03:32,426</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">com.dianping.searchQA.IndexServiceTest.IndexCreateTest</td>
+<td class="FileOfCaller">IndexCreateTest.java</td>
+<td class="LineOfCaller">112</td>
+<td class="Message">IndexTask 1 Appid 5 success</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Fri Jul 27 13:21:53 CST 2012</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Level">Level</td>
+<td class="Thread">Thread</td>
+<td class="Logger">Logger</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:21:54,001</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">411</td>
+<td class="Message">Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@18e4327: display name [org.springframework.context.support.ClassPathXmlApplicationContext@18e4327]; startup date [Fri Jul 27 13:21:53 CST 2012]; root of context hierarchy</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:21:54,050</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
+<td class="FileOfCaller">XmlBeanDefinitionReader.java</td>
+<td class="LineOfCaller">323</td>
+<td class="Message">Loading XML bean definitions from class path resource [beans/db.xml]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:21:54,119</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">426</td>
+<td class="Message">Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@18e4327]: org.springframework.beans.factory.support.DefaultListableBeanFactory@176086d</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:21:54,135</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td class="FileOfCaller">DefaultListableBeanFactory.java</td>
+<td class="LineOfCaller">414</td>
+<td class="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@176086d: defining beans [dataSource,jdbcTemplate,IndexTaskListDao]; root of factory hierarchy</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:21:54,488</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">com.dianping.searchQA.IndexServiceTest.IndexCreateTest</td>
+<td class="FileOfCaller">IndexCreateTest.java</td>
+<td class="LineOfCaller">112</td>
+<td class="Message">IndexTask 1 Appid 5 success</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Fri Jul 27 13:23:12 CST 2012</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Level">Level</td>
+<td class="Thread">Thread</td>
+<td class="Logger">Logger</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:23:12,440</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">411</td>
+<td class="Message">Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@dada24: display name [org.springframework.context.support.ClassPathXmlApplicationContext@dada24]; startup date [Fri Jul 27 13:23:12 CST 2012]; root of context hierarchy</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:23:12,490</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.xml.XmlBeanDefinitionReader</td>
+<td class="FileOfCaller">XmlBeanDefinitionReader.java</td>
+<td class="LineOfCaller">323</td>
+<td class="Message">Loading XML bean definitions from class path resource [beans/db.xml]</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:23:12,563</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.context.support.ClassPathXmlApplicationContext</td>
+<td class="FileOfCaller">AbstractApplicationContext.java</td>
+<td class="LineOfCaller">426</td>
+<td class="Message">Bean factory for application context [org.springframework.context.support.ClassPathXmlApplicationContext@dada24]: org.springframework.beans.factory.support.DefaultListableBeanFactory@234265</td>
+</tr>
+
+<tr class="info odd">
+<td class="Date">2012-07-27 13:23:12,582</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">org.springframework.beans.factory.support.DefaultListableBeanFactory</td>
+<td class="FileOfCaller">DefaultListableBeanFactory.java</td>
+<td class="LineOfCaller">414</td>
+<td class="Message">Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@234265: defining beans [dataSource,jdbcTemplate,IndexTaskListDao]; root of factory hierarchy</td>
+</tr>
+
+<tr class="info even">
+<td class="Date">2012-07-27 13:23:12,947</td>
+<td class="Level">INFO</td>
+<td class="Thread">main</td>
+<td class="Logger">com.dianping.searchQA.IndexServiceTest.IndexCreateTest</td>
+<td class="FileOfCaller">IndexCreateTest.java</td>
+<td class="LineOfCaller">120</td>
+<td class="Message">Another task is running</td>
+</tr>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+  <head>
+    <title>Logback Log Messages</title>
+<style  type="text/css">
+table { margin-left: 2em; margin-right: 2em; border-left: 2px solid #AAA; }
+TR.even { background: #FFFFFF; }
+TR.odd { background: #EAEAEA; }
+TR.warn TD.Level, TR.error TD.Level, TR.fatal TD.Level {font-weight: bold; color: #FF4040 }
+TD { padding-right: 1ex; padding-left: 1ex; border-right: 2px solid #AAA; }
+TD.Time, TD.Date { text-align: right; font-family: courier, monospace; font-size: smaller; }
+TD.Thread { text-align: left; }
+TD.Level { text-align: right; }
+TD.Logger { text-align: left; }
+TR.header { background: #596ED5; color: #FFF; font-weight: bold; font-size: larger; }
+TD.Exception { background: #A2AEE8; font-family: courier, monospace;}
+</style>
+
+  </head>
+<body>
+<hr/>
+<p>Log session start time Mon Jul 30 17:10:05 CST 2012</p><p></p>
+
+<table cellspacing="0">
+<tr class="header">
+<td class="Date">Date</td>
+<td class="Level">Level</td>
+<td class="Thread">Thread</td>
+<td class="Logger">Logger</td>
+<td class="FileOfCaller">FileOfCaller</td>
+<td class="LineOfCaller">LineOfCaller</td>
+<td class="Message">Message</td>
+</tr>
+
+</table>
+</body></html>

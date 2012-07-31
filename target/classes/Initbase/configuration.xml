@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root>
+    <Database title="数据库连接配置" description="" reloadable="false">
+        <LuceneDB description="">		
+			<ConnectionIP >192.168.7.104</ConnectionIP>
+			<databaseName>DPSearch</databaseName>
+			<UserName title="用户名" description="用户名">dpcom_search</UserName>
+			<Password title="密码" description="密码">dp!@vy0XdSFOU</Password>
+        </LuceneDB>
+
+
+        
+        <MySQLMainDB title="MySQL主数据库配置" description="">
+            <ConnectionIP>192.168.7.106</ConnectionIP>
+            <databaseName>DianPing</databaseName>
+            <UserName title="用户名" description="用户名">aspnet_dianping</UserName>
+            <Password title="密码" description="密码">dp!@OpQW34bn</Password>
+        </MySQLMainDB> 
+
+    </Database>
+</Root>
